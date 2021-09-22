@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+}
+.tab-pri{
+    padding:1rem 1rem;
+    background:rgb(245, 244, 243);
+    border:none;
+    border-radius: 5px;
+}
+.tab-sec{
+    padding:1rem 1rem;
+    border-radius: 5px;
+}
+.warning{
+    width:50rem;
+    height:1rem;
+    text-align: left;
+    margin-bottom:8rem;
+}
+h1{
+    margin-bottom: 3rem;
+}
+
+.img-dashboard{
+    margin:2rem;
+    width:50rem;
+    height:7rem
+}
+.img-warning{
+    width:2rem;
+    height:2rem;
+    background: transparent;
+}
+
+
+.newWindow {
+    display:inline-block;
+    margin-left:5px;
+    position: relative;
+    border: 1px solid;
+    width: 8px;
+    height: 8px;
+  }
+
+  .newWindow:after {
+    position: absolute;
+    top:-8px;
+    right:-2px;
+    font-size:0.8em;
+    content:"\1f855";
+  }
+
+  .newWindow:before {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    content: " ";
+    border: 4px solid white;
+  }
+
+a[target="_blank"] {
+       position: relative;
+  }
+
+a[target="_blank"]:after {
+   position: absolute;
+   top: 3px;
+   right: -15px;
+   content: "\1f855";
+   font-size: 13px;
+   color: black;
+   line-height: 3px;
+   height: 5px;
+   width: 5px;
+   border-right: 2px solid white;
+   border-top: 2px solid white;
+}
+
+a[target="_blank"]:before {
+   position: absolute;
+   top: 4px;
+   right: -15px;
+   content: " ";
+   border: 1px solid black;
+   width: 8px;
+   height: 8px;
+}
+
+.badge{
+    padding:0.3rem 1.5rem;
+}
+.img-textfile{
+    width:20px;
+    height:20px;
+}
+.next-page{
+    margin: 50px;
+}
+footer{
+    margin-top: 50px;
+    background-color: #333333;
+    color: white;
+}
