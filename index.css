@@ -1,28 +1,131 @@
 body{
     text-align: center;
 }
+@media(max-width:992px){
+    .container{
+        margin:0 80px;
+    }
+    .img-dashboard{
+        margin-right: 5rem;
+        width:48rem;
+        height:7rem
+    }
+    .warning{
+        width:49rem;
+        height:1rem;
+        text-align: left;
+        margin-bottom:8rem;
+    }
+    .tab-pri{
+        display: none;
+    }
+    .tab-sec{
+        padding:1rem 1rem;
+        border-bottom: 2px solid #484848;
+    }
+    .horizontal{
+        max-width: 100%;
+        padding: 0;
+        margin-top: 5px;
+    }
+    .name-dev{
+        display: flex;
+        flex-direction: column;
+    }
+    .name-dev-intern{
+        display: flex;
+        justify-content:space-between;
+    }
+    .intern{
+        text-align: right;
+    }
+    .namer{
+        font-size: 20px;
+    }
+    .date-num-status{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        margin-bottom: 5px;
+    }
+    .border-diff{
+        border-bottom: 0.5px solid rgb(95, 94, 94);
+    }
+    .review{
+        color: rgb(89, 89, 219);
+        display: flex;
+        justify-content: right;
+    }
+}
+@media(min-width:993px){
+    .tab-sec{
+        display: flex;
+        justify-content: space-between;
+        padding:1rem 1rem;
+        border-bottom: 2px solid #484848;
+    }
+    
+    .border-diff{
+        display: flex;
+        justify-content: space-between;
+    }
+    .name-dev-intern{
+        display: flex;
+        justify-content: space-between;
+    }
+    .name-dev{
+        display: flex;
+        justify-content: space-between;
+    }
+    .date-num-status{
+        display: flex;
+        justify-content: space-between;
+    }
+    .namer1{
+        margin-right: 6rem;
+    }
+    .profile1{
+        margin-right: 6rem;
+    }
+    .namer2{
+        margin-right: 4rem;
+    }
+    .profile2{
+        margin-right: 5rem;
+    }
+    .intern{
+        margin-right:3rem;
+    }
+    .date{
+        margin-right: 9rem;margin-left: 3rem;
+    }
+    .applicants{
+        margin-right: 9rem;
+    }
+}
+
 .tab-pri{
     padding:1rem 1rem;
     background:rgb(245, 244, 243);
     border:none;
     border-radius: 5px;
 }
-.tab-sec{
-    padding:1rem 1rem;
-    border-radius: 5px;
-}
+
+
+
 .warning{
     width:50rem;
     height:1rem;
     text-align: left;
     margin-bottom:8rem;
+    margin-top: 2rem;
 }
 h1{
     margin-bottom: 3rem;
 }
 
 .img-dashboard{
-    margin:2rem;
+    
     width:50rem;
     height:7rem
 }
@@ -101,3 +204,4 @@ footer{
     background-color: #333333;
     color: white;
 }
+
